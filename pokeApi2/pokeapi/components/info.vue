@@ -1,13 +1,15 @@
 <template>
-<div>
+<div class="bg-[url('~/static/fondo.jpg')] bg-cover h-screen">
 
+  
 
+    <p class="flex justify-center text-[60px]">{{nombre}}    </p>
  <div class="m-7 flex flex-row w-[100rem] justify-between">
      <img :src="url" class="w-[20rem]" alt="">
 
 
      <div class="w-[50rem] h-[20rem] border-dotted border-2 border-black ">
-      <p class="flex justify-center">{{nombre}}    </p>
+     
 
 
         <div class=" flex"> 
@@ -43,6 +45,7 @@
 
 
 
+
      
 
   
@@ -54,7 +57,7 @@
 
 
  </div>
-
+ <p class="flex justify-center text-[40px]">Imagenes    </p>
 </div>
 
 

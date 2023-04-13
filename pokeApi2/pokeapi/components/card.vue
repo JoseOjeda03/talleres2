@@ -1,6 +1,6 @@
 <template>
     <nuxt-link :to="name" class="">
-        <div class="w-96 h-[30rem] bg-red-600 border border-2 border-black ">
+        <div class="w-96 h-[30rem] bg-[#d00000] border border-2 border-black ">
             <div id="tipo"  >
                 <div class="flex justify-center" id="conter" >
                 <img :src="url" class="w-[20rem]" alt="...">
